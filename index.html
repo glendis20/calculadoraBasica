@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/calc.css" />
+    <title>Document</title>
+  </head>
+  <body>
+      <main class="contenido">
+    <h1 class="titulo">Hagamos cálculos!</h1>
+    
+    
+<div class="number">
+    <p>Instrucciones:</p>
+    <p>Coloque los numeros a calcular en los espacios designados, luego oprima el boton relacionado a la operacion que desea hacer</p> <br>
+      <p><input id="num1" type="text" name="numero1" placeholder="Coloca aqui un numero" /></p> 
+      <br>
+      <p><input id="num2" type="text" name="numero2" placeholder="Coloca aqui otro numero" /></p>
+   <br>
+        <button id="suma" onclick="calcular('+')" type="button">+</button>
+        <button id="resta" onclick="calcular('-')" type="button">-</button>
+        <button id="multiplicacion" onclick="calcular('*')" type="button">*</button>
+        <button id="division" onclick="calcular('/')" type="button">/</button>
+    </div>
+    <script src="./assets/js/matematica.js"></script>
+</main>
+  </body>
+</html>
